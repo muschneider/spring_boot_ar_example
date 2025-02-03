@@ -52,7 +52,7 @@ http POST http://localhost:8080/comments text="This is a comment" post:='{"id": 
 
 http DELETE http://localhost:8080/comments/1
 
-# Notes:
+### Notes:
 
     Replace 1 with the actual ID of the entity when deleting or referencing an existing entity.
     Ensure that when creating a Post, the User ID exists.
