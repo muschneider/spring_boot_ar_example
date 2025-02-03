@@ -9,7 +9,9 @@ http GET http://localhost:8080/users
 - Create a new user
 
 http POST http://localhost:8080/users username="john_doe" email="john@example.com"
+
 http POST http://localhost:8080/users username="mauro" email="mauro@gmail.com"
+
 http POST http://localhost:8080/users username="mary" email="mary@hotmail.com"
 
 - Get a user by username
